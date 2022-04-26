@@ -8,9 +8,9 @@ export const Directory = ({ categories }) => {
 
         <div className='directory-container'>
 
-            { categories.map(({ id, ...category }) => (
+            { categories.map(category => (
 
-                <CategoryItem key={id} category={category} />
+                <CategoryItem key={category.id} category={category} />
             ))}
 
         </div>

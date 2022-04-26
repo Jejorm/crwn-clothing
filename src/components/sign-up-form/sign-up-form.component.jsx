@@ -39,7 +39,7 @@ export const SignUpForm = () => {
 
         if (password !== confirmPassword) {
 
-            console.log('Passwod Different')
+            console.log('Password Different')
             return
         }
 
